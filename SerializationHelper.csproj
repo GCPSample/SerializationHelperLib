@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.0.1</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.1</FileVersion>
+		<Company>Cover My Med</Company>
+		<Authors>Wonde T.</Authors>
+		<Description>An XML serialization helper.</Description>
+		<PackageTags>Serializer, XML Serialization</PackageTags>
+		<PackageProjectUrl>https://github.com/GCPSample/SerializationHelperLib</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/GCPSample/SerializationHelperLib</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DebugType>none</DebugType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DebugType>none</DebugType>
+	</PropertyGroup>
+
+</Project>
